@@ -3,3 +3,4 @@ import BurgerReducer from "./reducer/BurgerReducer"
 export const rootReducer = combineReducers({
     BurgerReducer
 });
+

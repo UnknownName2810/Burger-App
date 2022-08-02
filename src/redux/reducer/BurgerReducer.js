@@ -6,7 +6,7 @@ const burgerState = {
   total: 85,
 };
 
-export const BurgerReducer = (state = burgerState, action) => {
+const BurgerReducer = (state = burgerState, action) => {
   switch (action.type) {
     case "": {
       return { ...state };
@@ -15,3 +15,5 @@ export const BurgerReducer = (state = burgerState, action) => {
       return { ...state };
   }
 };
+
+export default BurgerReducer;
